@@ -83,3 +83,5 @@ fisher.test(table1)
 After using Candp helper file Cat~Cat to run Barchart, table1, chi-square and
 fisher test, the results of all test confirmed that the "white" race eatout more
 than the "other" race and "black". In fact, the "white" race was more than 20% more likely to eat out than any of the other races. (other or black).
+
+Thus, we must reject the $H_0$ that There is no difference among the various races with frequency of eating out. 
