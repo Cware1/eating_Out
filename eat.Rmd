@@ -65,3 +65,15 @@ rowPerc(table1)
 
 The data again shows that the "white"races outs out more (almost 20%) then "other"
 and "black" races.
+
+## Inferential Results
+
+```{r}
+chisqtestGC(table1)
+```
+
+The results from the chi-square test show that whites have that "whites" indeed eatout at a higher rate then any other race.
+
+
+
+
