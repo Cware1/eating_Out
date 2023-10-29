@@ -50,6 +50,10 @@ After looking at the data, We will use the CandP helper files to compare categor
 
 ##Graphificial results
 
+```{r}
+barchartGC(~race + eatout,data=mydata, type="percent")
+```
 
+Data shows "white" race is eating out more overall then "other" and "black" races
 
 ##Num
