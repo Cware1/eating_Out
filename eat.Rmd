@@ -44,11 +44,11 @@ $H_A$ There is a statistical difference between at least two races with the freq
 #methods 
 After looking at the data, We will use the CandP helper files to compare categories~categories. This will also include tidyverse for percentages and ggplots2. Then we will look at the data.
 
-#results
+# Results
 
 
 
-##Graphificial results
+## Graphificial results
 
 ```{r}
 barchartGC(~race + eatout,data=mydata, type="percent")
@@ -56,4 +56,12 @@ barchartGC(~race + eatout,data=mydata, type="percent")
 
 Data shows "white" race is eating out more overall then "other" and "black" races
 
-##Num
+## Numerical Results
+
+```{r}
+table1 <- xtabs(~race + eatout, data=mydata)
+rowPerc(table1)
+```
+
+The data again shows that the "white"races outs out more (almost 20%) then "other"
+and "black" races.
